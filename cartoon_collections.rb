@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"])
   dwarves.each_with_index {|dwarf, index|}
-  hash
+  hash[dwarf] = 
    puts "#{index}, #{dwarf}" 
 end
 
